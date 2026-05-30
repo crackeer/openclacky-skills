@@ -10,3 +10,6 @@ Collect comprehensive system information from a remote Linux server via SSH and 
 ```bash
 ruby linux-server-info/scripts/collect.rb --host <host> --user <user> [--port <port>]
 ```
+
+### linux-server-doctor
+Diagnose Linux server issues via SSH. Handles health patrol checks, performance troubleshooting, log analysis, and security auditing.
