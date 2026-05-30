@@ -1,0 +1,17 @@
+{
+  "skill_name": "linux-server-info",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我采集 10.0.1.50 这台生产服务器的系统信息，SSH 用 root 账号，生成一份 Markdown 报告。这台是 Dell PowerEdge R750。",
+      "expected_output": "A structured Markdown report with sections for OS, CPU, Device SN, GPU, Memory, Architecture. Includes CPU model (Intel Xeon Gold 6338), SN (ABC123DEF), GPU (RTX 3080), Memory (125Gi).",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Check system info for our AWS EC2 instance at ec2-10-0-1-25, SSH as ec2-user. I need CPU, memory, disk, and OS details in a report.",
+      "expected_output": "A structured Markdown report showing AWS EC2 instance info including Instance ID, CPU (AMD EPYC), OS (Amazon Linux 2023), memory (15Gi), and noting no GPU.",
+      "files": []
+    }
+  ]
+}
